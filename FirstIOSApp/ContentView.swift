@@ -14,6 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Text("My First X Code Project").font(.title3).foregroundColor(.blue)
         }
         .padding()
     }
